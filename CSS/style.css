@@ -1,0 +1,126 @@
+:root{
+    /* Colores */
+    --azulOscuro:#6593A6;
+    --amarilloClaro:#F2CF63;
+    --amarilloOscuro:#F2C063;
+    --blanco:#F2F2F2;
+    --negro:#58595B;
+
+    /* Fuente */
+    --font: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    text-decoration:none;
+}
+li, ul, ol{
+    list-style: none;
+}
+
+main{
+    font-family:var(--font);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.main-hero{
+    background-color:var(--amarilloClaro);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-hero img{
+    width: 200px;
+}
+.main-hero h1{
+    font-weight: 800;
+    font-size: 72px;
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-login h1{
+    font-weight: 800;
+    font-size: 72px;
+}
+.main-login p{
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 70px;
+}
+.main-login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-login input{
+    padding:21px 22px;
+    font-family: var(--font);
+    font-size: 18px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    margin-bottom: 51px;
+    background: #F2F2F2;
+    box-shadow: -6px 7px 25px rgba(0, 0, 0, 0.25);
+}
+.main-login a{
+    font-weight: 300;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #58595B;
+    margin-bottom:68px;
+}
+.login-buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:51px;
+}
+.login-buttons button{
+    width: 240px;
+    height: 57px;
+    background: #6593A6;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    color: var(--blanco);
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+.login-access{
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.login-access img{
+    width: 50px;
+}
+.login-access a{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
